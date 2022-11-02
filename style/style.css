@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.lamp{
+    width: 512px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.lamp img{
+    margin: 50px auto;
+}
+
+.lamp p{
+    width: 512px;
+    padding: 14px;
+    background-color: #088008;
+    text-align: center;
+    color: #ffffff ;
+}
+
+
+.universal:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+
+.universal{
+    width: 512px;
+    background-color: #088008;
+    color: #ffffff;
+    margin: 50px auto;
+    padding: 14px;
+    text-align: center;
+
+}
