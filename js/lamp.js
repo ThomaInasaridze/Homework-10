@@ -6,7 +6,7 @@ let universal = () => {
     
     if(address == "file:///C:/Users/levan/Desktop/Homework%2010/pics/off.png") {
         document.getElementById("light") .src = "pics/on.png";
-        document.getElementById("universal").innerHTML = "ჩაქრობა" ;
+        document.getElementById("universal").innerHTML = "Turn Off" ;
         document.getElementById("universal").style. backgroundColor = "#f50606";
 
     } 
@@ -16,7 +16,7 @@ let universal = () => {
 
     else{
         document.getElementById("light") .src = "pics/off.png";
-        document.getElementById("universal").innerHTML = "ანთება" ;
+        document.getElementById("universal").innerHTML = "Turn On" ;
         document.getElementById("universal").style. backgroundColor = "#088008";
     }
 }
